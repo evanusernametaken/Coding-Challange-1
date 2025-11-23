@@ -1,18 +1,4 @@
-This repository contains a small Swift example demonstrating how to store an app name, keep track of a version number, and update that version. The purpose of the code is to show how constants, variables, and basic printing work in Swift.
-The program begins by defining the app name as a constant and the current version as a variable. It prints both values to the console so the user can see the initial state. After that, the version number is increased by 0.1 to simulate an update, and the new value is printed again. This makes it easy to understand how variable updates work and how Swift handles simple data types such as strings and doubles.
-Below is the full code used in this example:
-
-let appName: String = "Teems APP"
-var currentVersion: Double = 10.0
-print("My App Name \(appName)")
-print("Current Version \(currentVersion)")
-currentVersion += 0.1
-print("Current Version \(currentVersion)")
-
-When you run the program, it prints the original version and then shows the updated version number. The output will look like this:
-My App Name Teems APP
-
-Current Version 10.0
-Current Version 10.1
-
-To run the example, create a Swift file such as main.swift and copy the code into it. You can execute it from the command line using swift main.swift, or you can open the file in Xcode and run it there. Both methods will produce the same output and allow you to see how the version value changes each time the program runs.
+This repository contains a simple Swift demonstration that explains how to store an app name, track a version number, and update that version. The purpose of this project is to show how constants, variables, and basic string printing work in Swift without overwhelming the reader with too much detail.
+The program begins by defining the name of the app as a constant and the current version as a variable. It prints both values so the initial state is visible. After that, the version number is increased by 0.1 to simulate an update, and the updated value is printed again. This shows how Swift handles changing values and how string interpolation can be used to display information.
+When the program runs, it first shows the original version number and then displays the updated version. This helps demonstrate the difference between a constant, which cannot be changed, and a variable, which can be modified during the program’s execution.
+To run this project, create a Swift file and paste the source code into it. You can execute it using the Swift command-line tools or by opening the file in Xcode and running it through the IDE. Either method will produce the same printed output and allow you to observe how the version number increases each time the update occurs.
